@@ -1,0 +1,22 @@
+<div>
+  <h3>{{nombrePersona}}</h3>
+  <input type="number" name="name" ng-model="num1">
+  <input type="number" name="name" ng-model="num2">
+  <input type="button" name="name" ng-click="suma()" value="sumar">
+  <input type="button" name="name" ng-click="resta()" value="restar">
+  <input type="button" name="name" ng-click="multiplicacion()" value="multiplicar">
+  <input type="button" name="name" ng-click="division()" value="dividir">
+  <h1>{{resultado}}</h1>
+
+
+<div ng-controller="ListaController">
+  <input type="text" name="name" ng-model="escuela">
+  <input type="button" name="name" ng-click="adicionar()" value="adicionar escuela">
+  <li ng-repeat="item in lista">
+    <ul>
+      {{item}}
+    </ul>
+
+  </li>
+</div>
+</div >
